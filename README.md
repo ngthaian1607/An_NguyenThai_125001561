@@ -20,7 +20,7 @@ SpendWise là một Landing Page giới thiệu ứng dụng di động quản l
 - **Công cụ hỗ trợ (Vibe Coding):** Antigravity IDE, Gemini 3.8 Flash High.
 
 ## 4. Hướng dẫn chạy dự án (Live Demo)
-- **Link Live Preview (GitHub Pages):** [Trải nghiệm SpendWise tại đây](https://ngthaiian1607.github.io/An_NguyenThai_125001561/)
+- **Link Live Preview (GitHub Pages):** [Trải nghiệm SpendWise tại đây](https://ngthaian1607.github.io/An_NguyenThai_125001561/)
 
 ## 5. Danh sách Prompt "Đắt giá" nhất (Vibe Coding)
 Dưới đây là 3 câu lệnh AI hiệu quả nhất đã được sử dụng để vượt qua các giới hạn kỹ thuật khắt khe (chỉ dùng HTML/CSS):
