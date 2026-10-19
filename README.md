@@ -3,8 +3,7 @@
 ## 1. Thông tin sinh viên
 - **Họ và tên:** Nguyễn Thái An
 - **MSSV:** 125001561
-- **Vai trò:** Vibe Coder / Web Developer
-- **Môn học:** Thiết kế Web (Đại học Lạc Hồng)
+- **Môn học:** Thiết kế Web
 
 ## 2. Mô tả dự án
 SpendWise là một Landing Page giới thiệu ứng dụng di động quản lý tài chính thông minh. Giao diện được thiết kế tối ưu hóa nhằm phục vụ nhu cầu kiểm soát thu chi của mọi người dùng phổ thông trong đời sống hàng ngày, giúp bất kỳ ai cũng có thể dễ dàng xây dựng thói quen tài chính vững vàng. Dự án áp dụng triệt để tư duy Mobile First, hệ thống Design System chuẩn mực và hoàn toàn không phụ thuộc vào JavaScript để đảm bảo hiệu năng tối đa.
