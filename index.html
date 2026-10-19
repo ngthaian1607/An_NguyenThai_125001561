@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="SpendWise - Ứng dụng di động quản lý chi tiêu cá nhân thông minh, giúp bạn kiểm soát ngân sách, theo dõi dòng tiền và tối ưu hoá tiết kiệm mỗi ngày.">
+    <title>SpendWise - Ứng dụng Quản lý Chi tiêu Cá nhân Thông minh</title>
+
+    <!-- Nhúng FontAwesome CDN (bản CSS) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Nhúng thư viện Animate.css qua CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Thanh tiến trình cuộn trang (Scroll Progress Bar) -->
+    <span class="scroll-progress-bar" aria-hidden="true"></span>
+
+    <!-- Phần đầu trang -->
+    <header>
+        <a href="#hero" aria-label="SpendWise Trang chủ">
+            <strong><i class="fa-solid fa-coins"></i> SpendWise</strong>
+        </a>
+
+        <nav aria-label="Điều hướng chính">
+            <ul>
+                <li><a href="#hero">Trang chủ</a></li>
+                <li><a href="#features">Tính năng</a></li>
+                <li><a href="#reviews">Đánh giá</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#download">Tải ứng dụng</a></li>
+            </ul>
+        </nav>
+
+        <!-- Thẻ input checkbox ẩn và label nút chuyển đổi Dark Mode -->
+        <input type="checkbox" id="dark-mode-toggle" hidden>
+        <label for="dark-mode-toggle" class="theme-toggle-label" aria-label="Chuyển đổi giao diện Sáng / Tối"
+            title="Chuyển đổi giao diện Sáng / Tối">
+            <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+            <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+        </label>
+    </header>
+
+    <!-- Vùng nội dung chính của trang -->
+    <main>
+
+        <!-- Section 1: Hero -->
+        <section id="hero" aria-labelledby="hero-heading">
+            <h1 id="hero-heading" class="animate__animated animate__fadeInDown">Làm chủ tài chính cá nhân dễ dàng cùng
+                SpendWise</h1>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">
+                Theo dõi từng đồng chi tiêu, tự động phân loại giao dịch và xây dựng thói quen tài chính vững vàng ngay
+                trên điện thoại của bạn.
+            </p>
+
+            <p>
+                <a href="#download" role="button" class="animate__animated animate__fadeInUp animate__delay-1s">
+                    <i class="fa-solid fa-download"></i> Tải ứng dụng miễn phí
+                </a>
+                <a href="#features" class="animate__animated animate__fadeInUp animate__delay-1s">Tìm hiểu thêm</a>
+            </p>
+
+            <figure class="animate__animated animate__fadeInRight animate__delay-1s">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80&fm=webp"
+                    alt="Mockup ứng dụng SpendWise hiển thị báo cáo tài chính trên điện thoại thông minh" width="800"
+                    height="600" loading="eager">
+                <figcaption>Giao diện trực quan, rõ ràng trên cả iOS và Android</figcaption>
+            </figure>
+        </section>
+
+        <!-- Section 2: Tính năng -->
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Tính năng nổi bật</h2>
+            <p>Giải pháp toàn diện giúp bạn đơn giản hóa việc quản lý ngân sách hàng ngày.</p>
+
+            <article>
+                <i class="fa-solid fa-wallet feature-icon" aria-hidden="true"></i>
+                <h3>Theo dõi chi tiêu tự động</h3>
+                <p>Ghi chép giao dịch nhanh chóng trong 3 giây và tự động phân loại vào các nhóm thực phẩm, mua sắm,
+                    giải trí.</p>
+            </article>
+
+            <article>
+                <i class="fa-solid fa-bullseye feature-icon" aria-hidden="true"></i>
+                <h3>Thiết lập ngân sách thông minh</h3>
+                <p>Đặt giới hạn chi tiêu theo tuần hoặc tháng. Nhận cảnh báo thông minh trước khi bạn vượt ngưỡng an
+                    toàn.</p>
+            </article>
+
+            <article>
+                <i class="fa-solid fa-chart-line feature-icon" aria-hidden="true"></i>
+                <h3>Báo cáo dòng tiền trực quan</h3>
+                <p>Biểu đồ sinh động minh họa cơ cấu thu chi, giúp bạn nắm bắt thói quen tài chính để tiết kiệm hiệu quả
+                    hơn.</p>
+            </article>
+
+            <article>
+                <i class="fa-solid fa-shield-halved feature-icon" aria-hidden="true"></i>
+                <h3>Bảo mật chuẩn ngân hàng</h3>
+                <p>Mã hóa dữ liệu 256-bit kết hợp xác thực sinh trắc học bằng Face ID / Vân tay bảo vệ an toàn tối đa
+                    tài sản của bạn.</p>
+            </article>
+        </section>
+
+        <!-- Section 3: Đánh giá -->
+        <section id="reviews" aria-labelledby="reviews-heading">
+            <h2 id="reviews-heading">Người dùng nói gì về SpendWise</h2>
+            <p>Được tin dùng bởi hơn 100.000 người dùng quản lý tài chính hiệu quả mỗi tháng.</p>
+
+            <article class="review-card">
+                <!-- Mặt trước: Giữ nguyên nội dung đánh giá và avatar hiện tại -->
+                <section class="card-front">
+                    <blockquote>
+                        <p>“Từ ngày dùng SpendWise, mình mới nhận ra trước đây bản thân chi quá nhiều cho việc ăn uống
+                            vặt.
+                            Tháng vừa rồi mình đã tiết kiệm thêm được 20% lương.”</p>
+                    </blockquote>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80&fm=webp"
+                            alt="Chân dung bạn Minh Ánh" width="150" height="150" loading="lazy">
+                        <figcaption>
+                            <strong>Minh Ánh</strong> - Nhân viên văn phòng, Hà Nội
+                        </figcaption>
+                    </figure>
+                </section>
+
+                <!-- Mặt sau: Hiển thị thông tin phụ -->
+                <aside class="card-back">
+                    <i class="fa-solid fa-circle-check verified-badge" aria-hidden="true"></i>
+                    <h3>Người dùng xác thực</h3>
+                    <p><i class="fa-regular fa-clock" aria-hidden="true"></i> Thời gian sử dụng: <strong>Hơn 1
+                            năm</strong></p>
+                    <p><i class="fa-solid fa-star" aria-hidden="true"></i> Đánh giá: <strong>5.0 / 5.0</strong></p>
+                </aside>
+            </article>
+
+            <article class="review-card">
+                <!-- Mặt trước: Giữ nguyên nội dung đánh giá và avatar hiện tại -->
+                <section class="card-front">
+                    <blockquote>
+                        <p>“Giao diện rất sạch sẽ, không có quảng cáo phiền toái. Tính năng cảnh báo hạn mức chi tiêu đã
+                            cứu
+                            ví tiền của mình không ít lần.”</p>
+                    </blockquote>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80&fm=webp"
+                            alt="Chân dung bạn Quốc Bảo" width="150" height="150" loading="lazy">
+                        <figcaption>
+                            <strong>Quốc Bảo</strong> - Freelance Designer, TP. Hồ Chí Minh
+                        </figcaption>
+                    </figure>
+                </section>
+
+                <!-- Mặt sau: Hiển thị thông tin phụ -->
+                <aside class="card-back">
+                    <i class="fa-solid fa-circle-check verified-badge" aria-hidden="true"></i>
+                    <h3>Người dùng xác thực</h3>
+                    <p><i class="fa-regular fa-clock" aria-hidden="true"></i> Thời gian sử dụng: <strong>Hơn 1
+                            năm</strong></p>
+                    <p><i class="fa-solid fa-star" aria-hidden="true"></i> Đánh giá: <strong>5.0 / 5.0</strong></p>
+                </aside>
+            </article>
+
+            <article class="review-card">
+                <!-- Mặt trước: Giữ nguyên nội dung đánh giá và avatar hiện tại -->
+                <section class="card-front">
+                    <blockquote>
+                        <p>“Biểu đồ chi tiêu trực quan giúp hai vợ chồng mình lên kế hoạch mua nhà rõ ràng và theo dõi
+                            tiến
+                            độ một cách kỷ luật.”</p>
+                    </blockquote>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80&fm=webp"
+                            alt="Chân dung chị Thanh Hương" width="150" height="150" loading="lazy">
+                        <figcaption>
+                            <strong>Thanh Hương</strong> - Quản lý dự án, Đà Nẵng
+                        </figcaption>
+                    </figure>
+                </section>
+
+                <!-- Mặt sau: Hiển thị thông tin phụ -->
+                <aside class="card-back">
+                    <i class="fa-solid fa-circle-check verified-badge" aria-hidden="true"></i>
+                    <h3>Người dùng xác thực</h3>
+                    <p><i class="fa-regular fa-clock" aria-hidden="true"></i> Thời gian sử dụng: <strong>Hơn 1
+                            năm</strong></p>
+                    <p><i class="fa-solid fa-star" aria-hidden="true"></i> Đánh giá: <strong>5.0 / 5.0</strong></p>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Section: FAQ (Câu hỏi thường gặp) -->
+        <section id="faq" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Câu hỏi thường gặp (FAQ)</h2>
+            <p>Mọi thắc mắc của bạn về ứng dụng SpendWise đều được giải đáp nhanh chóng tại đây.</p>
+
+            <details>
+                <summary>Ứng dụng SpendWise có mất phí sử dụng không?</summary>
+                <p>
+                    SpendWise hoàn toàn miễn phí cho các tính năng cơ bản như ghi chép thu chi hàng ngày, tạo ngân sách
+                    và xem biểu đồ phân tích hàng tháng. Bạn chỉ cần nâng cấp gói Premium nếu muốn mở khóa tính năng
+                    đồng bộ tài khoản ngân hàng tự động và xuất báo cáo tài chính không giới hạn.
+                </p>
+            </details>
+
+            <details>
+                <summary>Dữ liệu tài chính của tôi có được bảo mật an toàn không?</summary>
+                <p>
+                    Tuyệt đối an toàn. Chúng tôi áp dụng tiêu chuẩn mã hóa AES-256 bit cấp quân sự cùng xác thực sinh
+                    trắc học Face ID / Vân tay trực tiếp trên thiết bị. Dữ liệu chỉ thuộc về bạn và cam kết không bao
+                    giờ chia sẻ cho bất kỳ bên thứ ba nào.
+                </p>
+            </details>
+
+            <details>
+                <summary>SpendWise có hỗ trợ xuất dữ liệu ra Excel hoặc PDF không?</summary>
+                <p>
+                    Có, bạn có thể dễ dàng xuất toàn bộ lịch sử chi tiêu, hóa đơn và biểu đồ báo cáo tài chính thành tệp
+                    Excel (.xlsx, .csv) hoặc tài liệu PDF chuyên nghiệp bất kỳ lúc nào để phục vụ lưu trữ cá nhân hoặc
+                    kê khai thuế.
+                </p>
+            </details>
+        </section>
+
+        <!-- Section 4: Tải app -->
+        <section id="download" aria-labelledby="download-heading">
+            <h2 id="download-heading">Tải SpendWise ngay hôm nay</h2>
+            <p>Bắt đầu hành trình tự do tài chính của bạn hoàn toàn miễn phí. Khả dụng trên iOS và Android.</p>
+
+            <nav aria-label="Liên kết tải ứng dụng">
+                <ul>
+                    <li>
+                        <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-apple"></i> Tải trên App Store
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-google-play"></i> Tải trên Google Play
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <figure>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=https://spendwise.app"
+                    alt="Mã QR quét để tải ứng dụng SpendWise trên điện thoại" width="140" height="140" loading="lazy">
+                <figcaption>Quét mã QR bằng camera điện thoại để tải ứng dụng nhanh</figcaption>
+            </figure>
+        </section>
+
+    </main>
+
+    <!-- Phần chân trang -->
+    <footer>
+        <nav aria-label="Liên kết pháp lý và chính sách">
+            <ul>
+                <li><a href="#terms">Điều khoản sử dụng</a></li>
+                <li><a href="#privacy">Chính sách bảo mật</a></li>
+                <li><a href="#support">Hỗ trợ khách hàng</a></li>
+            </ul>
+        </nav>
+
+        <address>
+            Liên hệ hỗ trợ: <a href="mailto:support@spendwise.app">support@spendwise.app</a>
+        </address>
+
+        <p><small>&copy; 2026 SpendWise Inc. Mọi quyền được bảo lưu.</small></p>
+    </footer>
+
+    <!-- Nút Floating Action Button (FAB) hình tròn cố định góc phải màn hình -->
+    <a href="#download" class="fab-btn" aria-label="Tải ứng dụng SpendWise ngay" title="Tải ứng dụng ngay">
+        <i class="fa-solid fa-cloud-arrow-down" aria-hidden="true"></i>
+    </a>
+
+</body>
+
+</html>
