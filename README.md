@@ -3,6 +3,7 @@
 ## 1. Thông tin sinh viên
 - **Họ và tên:** Nguyễn Thái An
 - **MSSV:** 125001561
+- **Lớp:** 25CT113
 - **Môn học:** Thiết kế Web
 
 ## 2. Mô tả dự án
